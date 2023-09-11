@@ -1,0 +1,42 @@
+.home-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.home-image {
+    width: 50%;
+    padding: 20px;
+}
+
+.home-img{
+    width: 100%;
+}
+
+.home-text {
+    padding: 20px;
+}
+
+.button {
+    background-color: #B11D8D;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+.home-container{
+    display: block;
+    
+}
+.home-image{
+    margin: auto;
+    padding: 0;
+    margin-bottom: 15px;
+    
+}
+.home-text{
+    text-align: center;
+}
+}

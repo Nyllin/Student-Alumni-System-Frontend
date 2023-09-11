@@ -1,0 +1,16 @@
+.custom-footer{
+    width: 100%;
+    height: 120px;
+    color: #fff;
+    background-color: #B11D8D;
+}
+
+.custom-icon{
+    font-size: 50px !important;
+    color: #fff;
+}
+
+.footer-btn{
+    background-color: transparent;
+    border: 0;
+}

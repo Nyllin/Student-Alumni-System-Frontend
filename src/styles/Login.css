@@ -1,0 +1,30 @@
+.custom-login-container{
+    width: 100%;
+    display: flex;
+}
+
+.custom-login-img{
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+}
+
+.custom-login-form{
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+}
+
+.custom-login-text{
+    color: #B11D8D !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .custom-login-img{
+        display: none;
+    }
+    .custom-login-form{
+        width: 100%;
+    }
+
+}

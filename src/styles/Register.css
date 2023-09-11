@@ -1,0 +1,30 @@
+.custom-register-container{
+    width: 100%;
+    display: flex;
+}
+
+.custom-register-img{
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+}
+
+.custom-register-form{
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+}
+
+.custom-register-text{
+    color: #B11D8D !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .custom-register-img{
+        display: none;
+    }
+    .custom-register-form{
+        width: 100%;
+    }
+
+}
